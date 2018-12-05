@@ -228,7 +228,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   <!--- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Microsoft.WebApplication.targets" /> -->
+=======
+ <!--- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Microsoft.WebApplication.targets" /> -->
+>>>>>>> parent of aef9707... ConnString
 =======
  <!--- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Microsoft.WebApplication.targets" /> -->
 >>>>>>> parent of aef9707... ConnString
