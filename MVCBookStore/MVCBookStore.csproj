@@ -225,27 +225,11 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!--- <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" /> -->
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   <!--- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Microsoft.WebApplication.targets" /> -->
-=======
  <!--- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Microsoft.WebApplication.targets" /> -->
->>>>>>> parent of aef9707... ConnString
-=======
  <!--- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Microsoft.WebApplication.targets" /> -->
->>>>>>> parent of aef9707... ConnString
-=======
- <!--- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Microsoft.WebApplication.targets" /> -->
->>>>>>> parent of aef9707... ConnString
-=======
- <!--- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Microsoft.WebApplication.targets" /> -->
->>>>>>> parent of aef9707... ConnString
   <Import Project="..\dependencies\Microsoft.WebApplication.targets" />
-=======
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Microsoft.WebApplication.targets" />
->>>>>>> parent of b0a992a... AddFiles
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
     <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
